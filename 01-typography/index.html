@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Typography & Article</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="article">
+      <p class="kicker">Design Notes</p>
+      <h1>The Art of Readable Web Typography</h1>
+      <p class="byline">By Ava Stone &middot; 6 min read</p>
+      <div class="body">
+        <p id="first-para">
+          Good typography is invisible. Readers should never think about the
+          font, the spacing or the width of a line; they should simply read. CSS
+          gives you every tool you need, from
+          <code>font-size</code> to <code>letter-spacing</code>, and learning to
+          combine them is a superpower.
+        </p>
+        <p>
+          Start with a comfortable base size and scale everything with
+          <code>rem</code> units so your page respects what the user has chosen
+          in their browser settings. A line-height around 1.6 gives paragraphs
+          room to breathe.
+        </p>
+        <blockquote>
+          Typography is what language looks like. Treat it with the same care as
+          the words themselves.
+        </blockquote>
+        <div class="last-row">
+          <div class="list">
+            <h2>Three quick rules</h2>
+            <ul>
+              <li>Keep lines between 50 and 75 characters.</li>
+              <li>Use no more than two font families.</li>
+              <li>Create hierarchy with size, weight and colour.</li>
+            </ul>
+          </div>
+          <p>
+            Finally, remember details like <code>text-transform</code>,
+            <code>hyphens</code> and <code>::first-letter</code>. They are small
+            touches that make an article feel designed rather than merely
+            styled.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
