@@ -1,0 +1,286 @@
+/* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    background: #eef2f7;
+    color: #1e293b;
+    padding: 30px
+}
+
+h1 {
+    margin-bottom: 18px
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px
+}
+
+.c {
+    background: #fff;
+    border-radius: 16px;
+    padding: 18px;
+    height: 240px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1)
+}
+
+h3 {
+    font-size: .9rem;
+    margin-bottom: 14px;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: .08em
+}
+
+.m {
+    background: #fbbf77;
+    padding: 16px;
+    border-radius: 6px
+}
+
+.b {
+    background: #fde68a;
+    padding: 10px;
+    border: 8px solid #f59e0b
+}
+
+.p {
+    background: #bbf7d0;
+    padding: 14px
+}
+
+.ct {
+    background: #60a5fa;
+    color: #fff;
+    text-align: center;
+    padding: 14px;
+    font-size: .85rem
+}
+
+.el {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    padding-top: 20px
+}
+
+.el i {
+    width: 44px;
+    height: 80px;
+    background: #fff;
+    border-radius: 10px
+}
+
+.e1 {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .25)
+}
+
+.e2 {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .2)
+}
+
+.e3 {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .22)
+}
+
+.e4 {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, .28)
+}
+
+.rad {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center
+}
+
+.rad i {
+    width: 56px;
+    height: 56px;
+    background: #6366f1
+}
+
+.ring {
+    margin: 24px auto 0;
+    width: 140px;
+    padding: 22px;
+    text-align: center;
+    background: #e0e7ff;
+    border-radius: 10px;
+    outline: 3px dashed #6366f1;
+    outline-offset: 8px
+}
+
+.inset {
+    margin: 22px auto 0;
+    width: 160px;
+    padding: 34px;
+    text-align: center;
+    border-radius: 14px;
+    background: #e2e8f0;
+    box-shadow: inset 0 3px 10px rgba(0, 0, 0, .35)
+}
+
+.bs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px
+}
+
+.bs i {
+    height: 60px;
+    border: 5px solid #0ea5e9;
+    border-radius: 6px
+} */
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: #eef2f7;
+    color: #1e293b;
+    padding: 30px;
+}
+
+h1{
+    margin-bottom: 18px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.c{
+    height: 240px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1)
+}
+
+h3{
+    color: #64748b;
+    font-size: 0.9rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.m{
+    background-color: #fbbf77;
+    padding: 16px;
+    border-radius: 6px;
+}
+
+.b{
+    background: #fde68a;
+    padding: 10px;
+    border: 8px solid #f59e0b
+}
+
+.p{
+    background-color: #bbf7d0;
+    padding: 14px;
+}
+.ct{
+    color: #ffffff;
+    background-color: #60a5fa;
+    font-size: 0.85rem;
+    padding: 14px;
+    text-align: center;
+}
+
+.el{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 14px;
+}
+
+.el i{
+    height: 80px;
+    width: 44px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.e1 {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .25)
+}
+
+.e2 {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .2)
+}
+
+.e3 {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .22)
+}
+
+.e4 {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, .28)
+}
+
+.rad {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center
+}
+
+.rad i{
+    height: 56px;
+    width: 56px;
+    background-color: #6366f1;
+}
+
+
+.ring{
+    width: 140px;
+    margin: 24px auto 0px;
+    background-color: #e0e7ff;
+    padding: 22px;
+    text-align: center;
+    border-radius: 10px;
+    outline: 3px dashed #6366f1;
+    outline-offset: 8px;
+}
+
+.inset{
+    width: 140px;
+    margin: 24px auto 0px;
+    background-color: #e2e8f0;
+    padding: 22px;
+    text-align: center;
+    border-radius: 14px;
+    box-shadow: inset 0 0 40px rgb(0, 0, 0, .35);
+}
+
+.bs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.bs i{
+    height: 60px;
+    color: #60a5fa;
+    border-width: 4px;
+    border-radius: 5px;
+}
